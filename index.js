@@ -1,8 +1,12 @@
 import colors from 'colors';
+import prompt from 'prompt-sync';
 
 let num1 = parseInt(prompt('Введите первое число'));
+//alert(num1);
 let num2 = parseInt(prompt('Введите второе число'));
+//alert(num2);
 let a = prompt('Введите аргумент');
+//alert(a);
 if(!Number.isInteger(a)){
     throw new Error();
 }
